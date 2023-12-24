@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glowing effect</title>
+  <style>
+body{
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  
+}
+h1{
+    /* display: flex; */
+
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+  background:linear-gradient(to right,red,blue);
+  color: transparent;
+  -webkit-background-clip: text; 
+  text-shadow: 0 0 60px rgba(255, 0, 0, 0.467);
+  animation: anime 0.4s infinite alternate;  
+}
+
+@keyframes anime {
+  100%{
+    text-shadow: 0 0 60px rgba(0, 0, 255, 0.529);
+
+  }
+}
+  </style>
+</head>
+<body>
+  <h1>Jay Sri Krishna...</h1>
+  <h1>Jay Bajarangbali... </h1>
+  <h1>Jay Shiv Shambhu...</h1>
+</body>
+</html>
